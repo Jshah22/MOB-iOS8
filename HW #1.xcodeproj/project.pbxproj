@@ -14,6 +14,14 @@
 		69581D3D1C613BBB002A110A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69581D3B1C613BBB002A110A /* LaunchScreen.storyboard */; };
 		69581D481C613BBB002A110A /* HW__1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69581D471C613BBB002A110A /* HW__1Tests.swift */; };
 		69581D531C613BBB002A110A /* HW__1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69581D521C613BBB002A110A /* HW__1UITests.swift */; };
+		69581D611C6142E6002A110A /* sample-920-handbag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69581D601C6142E6002A110A /* sample-920-handbag@2x.png */; };
+		69581D631C61433E002A110A /* sample-302-swords.png in Resources */ = {isa = PBXBuildFile; fileRef = 69581D621C61433E002A110A /* sample-302-swords.png */; };
+		69581D651C614354002A110A /* sample-1049-at-sign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69581D641C614354002A110A /* sample-1049-at-sign@2x.png */; };
+		696B1CE11C61DFB200D4C5F5 /* zelda.png in Resources */ = {isa = PBXBuildFile; fileRef = 696B1CE01C61DFB200D4C5F5 /* zelda.png */; };
+		696B1CE31C61E02700D4C5F5 /* MarioKart.png in Resources */ = {isa = PBXBuildFile; fileRef = 696B1CE21C61E02700D4C5F5 /* MarioKart.png */; };
+		696B1CE51C61E0F600D4C5F5 /* fifa 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 696B1CE41C61E0F600D4C5F5 /* fifa 16.png */; };
+		696B1CE71C61E10100D4C5F5 /* call of duty.png in Resources */ = {isa = PBXBuildFile; fileRef = 696B1CE61C61E10100D4C5F5 /* call of duty.png */; };
+		696B1CE91C61E21900D4C5F5 /* sample-935-power-socket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696B1CE81C61E21900D4C5F5 /* sample-935-power-socket@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		69581D4E1C613BBB002A110A /* HW #1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW #1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69581D521C613BBB002A110A /* HW__1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW__1UITests.swift; sourceTree = "<group>"; };
 		69581D541C613BBB002A110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69581D601C6142E6002A110A /* sample-920-handbag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-920-handbag@2x.png"; sourceTree = "<group>"; };
+		69581D621C61433E002A110A /* sample-302-swords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-302-swords.png"; sourceTree = "<group>"; };
+		69581D641C614354002A110A /* sample-1049-at-sign@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-1049-at-sign@2x.png"; sourceTree = "<group>"; };
+		696B1CE01C61DFB200D4C5F5 /* zelda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zelda.png; sourceTree = "<group>"; };
+		696B1CE21C61E02700D4C5F5 /* MarioKart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarioKart.png; sourceTree = "<group>"; };
+		696B1CE41C61E0F600D4C5F5 /* fifa 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fifa 16.png"; sourceTree = "<group>"; };
+		696B1CE61C61E10100D4C5F5 /* call of duty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call of duty.png"; sourceTree = "<group>"; };
+		696B1CE81C61E21900D4C5F5 /* sample-935-power-socket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-935-power-socket@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +116,14 @@
 				69581D321C613BBB002A110A /* AppDelegate.swift */,
 				69581D341C613BBB002A110A /* ViewController.swift */,
 				69581D361C613BBB002A110A /* Main.storyboard */,
+				69581D601C6142E6002A110A /* sample-920-handbag@2x.png */,
+				69581D621C61433E002A110A /* sample-302-swords.png */,
+				69581D641C614354002A110A /* sample-1049-at-sign@2x.png */,
+				696B1CE01C61DFB200D4C5F5 /* zelda.png */,
+				696B1CE21C61E02700D4C5F5 /* MarioKart.png */,
+				696B1CE41C61E0F600D4C5F5 /* fifa 16.png */,
+				696B1CE61C61E10100D4C5F5 /* call of duty.png */,
+				696B1CE81C61E21900D4C5F5 /* sample-935-power-socket@2x.png */,
 				69581D391C613BBB002A110A /* Assets.xcassets */,
 				69581D3B1C613BBB002A110A /* LaunchScreen.storyboard */,
 				69581D3E1C613BBB002A110A /* Info.plist */,
@@ -192,6 +216,7 @@
 				TargetAttributes = {
 					69581D2E1C613BBB002A110A = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 96LATWH4DR;
 					};
 					69581D421C613BBB002A110A = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -228,8 +253,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696B1CE71C61E10100D4C5F5 /* call of duty.png in Resources */,
+				696B1CE91C61E21900D4C5F5 /* sample-935-power-socket@2x.png in Resources */,
+				696B1CE11C61DFB200D4C5F5 /* zelda.png in Resources */,
+				696B1CE51C61E0F600D4C5F5 /* fifa 16.png in Resources */,
 				69581D3D1C613BBB002A110A /* LaunchScreen.storyboard in Resources */,
+				696B1CE31C61E02700D4C5F5 /* MarioKart.png in Resources */,
+				69581D631C61433E002A110A /* sample-302-swords.png in Resources */,
 				69581D3A1C613BBB002A110A /* Assets.xcassets in Resources */,
+				69581D611C6142E6002A110A /* sample-920-handbag@2x.png in Resources */,
+				69581D651C614354002A110A /* sample-1049-at-sign@2x.png in Resources */,
 				69581D381C613BBB002A110A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,10 +431,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "HW #1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JS.HW--1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -409,10 +445,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "HW #1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JS.HW--1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -483,6 +522,7 @@
 				69581D591C613BBB002A110A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69581D5A1C613BBB002A110A /* Build configuration list for PBXNativeTarget "HW #1Tests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +531,7 @@
 				69581D5C1C613BBB002A110A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69581D5D1C613BBB002A110A /* Build configuration list for PBXNativeTarget "HW #1UITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +540,7 @@
 				69581D5F1C613BBB002A110A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
