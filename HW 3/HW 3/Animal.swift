@@ -19,3 +19,10 @@ class Animal: NSObject {
         return "Animal name: " + self.name
     }
 }
+
+class New: Animal {
+    
+        override func prettyAnimalName() -> String {
+        return "New class:" + self.name
+    }
+}
