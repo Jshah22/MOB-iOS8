@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cGj-6Q-j7z">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--FirstVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="FirstVC" customModule="HW_7_Persistence" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OF4-Me-jpG">
+                                <rect key="frame" x="20" y="72" width="560" height="508"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OF4-Me-jpG" secondAttribute="bottom" constant="20" id="8cS-Xe-I5n"/>
+                            <constraint firstItem="OF4-Me-jpG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="8gb-ad-quy"/>
+                            <constraint firstItem="OF4-Me-jpG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vkn-Rp-IAZ"/>
+                            <constraint firstItem="OF4-Me-jpG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ink-mJ-JcK"/>
+                            <constraint firstItem="OF4-Me-jpG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tSj-zM-EUF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ink-mJ-JcK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="0h1-6R-Anf">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="CB4-xO-GoN">
+                            <connections>
+                                <segue destination="24x-l8-f5i" kind="show" id="UkN-Dg-3Sq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="displayedText" destination="OF4-Me-jpG" id="S4M-jV-7PN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="313"/>
+        </scene>
+        <!--SecondVC-->
+        <scene sceneID="vG4-Xf-k62">
+            <objects>
+                <viewController id="24x-l8-f5i" customClass="SecondVC" customModule="HW_7_Persistence" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DJN-O2-Zd3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tf5-wC-Gvm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OTJ-9F-jqj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rox-Cf-DPv">
+                                <rect key="frame" x="20" y="72" width="560" height="508"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rox-Cf-DPv" firstAttribute="leading" secondItem="OTJ-9F-jqj" secondAttribute="leadingMargin" id="bLW-Gf-EbQ"/>
+                            <constraint firstItem="Tf5-wC-Gvm" firstAttribute="top" secondItem="Rox-Cf-DPv" secondAttribute="bottom" constant="20" id="dYk-zM-hEG"/>
+                            <constraint firstItem="Rox-Cf-DPv" firstAttribute="centerX" secondItem="OTJ-9F-jqj" secondAttribute="centerX" id="dai-cg-1pi"/>
+                            <constraint firstItem="Rox-Cf-DPv" firstAttribute="top" secondItem="DJN-O2-Zd3" secondAttribute="bottom" constant="8" id="h90-o6-T38"/>
+                            <constraint firstItem="Rox-Cf-DPv" firstAttribute="centerY" secondItem="OTJ-9F-jqj" secondAttribute="centerY" id="m9H-FD-CXO"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="m9H-FD-CXO"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="eb8-80-9Zx">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="oPv-MH-sef">
+                            <connections>
+                                <segue destination="OKZ-af-NJT" kind="show" id="MOX-Re-teU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="displayedText" destination="Rox-Cf-DPv" id="vqI-MA-pl0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eTG-Cd-1Zh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1741" y="313"/>
+        </scene>
+        <!--ThirdVC-->
+        <scene sceneID="zas-4b-qZb">
+            <objects>
+                <viewController id="OKZ-af-NJT" customClass="ThirdVC" customModule="HW_7_Persistence" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vXh-Op-cHq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rwe-eQ-Lq3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iUE-Cy-T5B">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Click Next above to save text and view saved text on next page." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qYk-hf-cO8">
+                                <rect key="frame" x="20" y="72" width="560" height="513"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rwe-eQ-Lq3" firstAttribute="top" secondItem="qYk-hf-cO8" secondAttribute="bottom" constant="15" id="1AS-h7-Gce"/>
+                            <constraint firstItem="qYk-hf-cO8" firstAttribute="centerY" secondItem="iUE-Cy-T5B" secondAttribute="centerY" id="3mG-Vn-nFP"/>
+                            <constraint firstItem="qYk-hf-cO8" firstAttribute="top" secondItem="vXh-Op-cHq" secondAttribute="bottom" constant="8" id="6Xz-FX-q2A"/>
+                            <constraint firstItem="qYk-hf-cO8" firstAttribute="leading" secondItem="iUE-Cy-T5B" secondAttribute="leadingMargin" id="i88-Ea-dyL"/>
+                            <constraint firstItem="qYk-hf-cO8" firstAttribute="centerX" secondItem="iUE-Cy-T5B" secondAttribute="centerX" id="txu-Ta-O6E"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3mG-Vn-nFP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="MnY-Sv-Oik">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="gb2-YG-zay">
+                            <connections>
+                                <segue destination="5dV-XL-zKW" kind="show" identifier="showVC4" id="IME-Yk-mW7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="inputText" destination="qYk-hf-cO8" id="RSc-vp-rmt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mNx-gx-3dE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2392" y="313"/>
+        </scene>
+        <!--FourthVC-->
+        <scene sceneID="AhC-9T-ZHW">
+            <objects>
+                <viewController id="5dV-XL-zKW" customClass="FourthVC" customModule="HW_7_Persistence" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vgI-gW-1sm"/>
+                        <viewControllerLayoutGuide type="bottom" id="QUa-Ee-6E6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yux-2z-9V5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JxK-WO-8W0">
+                                <rect key="frame" x="20" y="72" width="560" height="508"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JxK-WO-8W0" firstAttribute="centerX" secondItem="yux-2z-9V5" secondAttribute="centerX" id="8fH-k4-c7N"/>
+                            <constraint firstItem="JxK-WO-8W0" firstAttribute="top" secondItem="vgI-gW-1sm" secondAttribute="bottom" constant="8" id="GXv-Ne-JlB"/>
+                            <constraint firstItem="JxK-WO-8W0" firstAttribute="leading" secondItem="yux-2z-9V5" secondAttribute="leadingMargin" id="HBK-bt-9OU"/>
+                            <constraint firstItem="JxK-WO-8W0" firstAttribute="centerY" secondItem="yux-2z-9V5" secondAttribute="centerY" id="ZIg-Mm-Avh"/>
+                            <constraint firstItem="QUa-Ee-6E6" firstAttribute="top" secondItem="JxK-WO-8W0" secondAttribute="bottom" constant="20" id="cNK-fH-bdN"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ZIg-Mm-Avh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="pF1-f4-PbW">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="iWE-qu-Zbc">
+                            <connections>
+                                <segue destination="15q-dp-kCx" kind="show" id="9a6-sB-Pah"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textFromThirdVC" destination="JxK-WO-8W0" id="XWa-65-ZOd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HLL-5Z-PCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3041" y="306"/>
+        </scene>
+        <!--FifthVC-->
+        <scene sceneID="yXg-ue-Jax">
+            <objects>
+                <viewController id="15q-dp-kCx" customClass="FifthVC" customModule="HW_7_Persistence" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8sn-Ki-d6z"/>
+                        <viewControllerLayoutGuide type="bottom" id="jqK-io-fhB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k7p-Lh-680">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jzd-b6-heQ">
+                                <rect key="frame" x="20" y="72" width="560" height="513"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Words typed here will be saved in the property list as an array of strings and shown on the following page when you tap Next above.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jzd-b6-heQ" firstAttribute="centerY" secondItem="k7p-Lh-680" secondAttribute="centerY" id="Ba7-kE-BzE"/>
+                            <constraint firstItem="jzd-b6-heQ" firstAttribute="leading" secondItem="k7p-Lh-680" secondAttribute="leadingMargin" id="Lvk-1J-Brx"/>
+                            <constraint firstItem="jzd-b6-heQ" firstAttribute="top" secondItem="8sn-Ki-d6z" secondAttribute="bottom" constant="8" id="Rac-xA-VIf"/>
+                            <constraint firstItem="jqK-io-fhB" firstAttribute="top" secondItem="jzd-b6-heQ" secondAttribute="bottom" constant="15" id="WAI-nP-zxe"/>
+                            <constraint firstItem="jzd-b6-heQ" firstAttribute="centerX" secondItem="k7p-Lh-680" secondAttribute="centerX" id="YWT-uK-Dac"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Ba7-kE-BzE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="8PG-ax-37z">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="jhh-si-zZF">
+                            <connections>
+                                <segue destination="hkq-AM-LDH" kind="show" identifier="showVC6" id="CYR-Gb-NRO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="userInput" destination="jzd-b6-heQ" id="hq7-ix-fkn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FzZ-Xq-9oY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3741" y="306"/>
+        </scene>
+        <!--SixthVC-->
+        <scene sceneID="oUD-Vf-Zmt">
+            <objects>
+                <viewController id="hkq-AM-LDH" customClass="SixthVC" customModule="HW_7_Persistence" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XXp-P7-NNq"/>
+                        <viewControllerLayoutGuide type="bottom" id="ahg-rY-Wz6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UKP-wH-vdY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ndr-aq-QdZ">
+                                <rect key="frame" x="20" y="72" width="560" height="508"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ahg-rY-Wz6" firstAttribute="top" secondItem="Ndr-aq-QdZ" secondAttribute="bottom" constant="20" id="29M-AT-Gsf"/>
+                            <constraint firstItem="Ndr-aq-QdZ" firstAttribute="leading" secondItem="UKP-wH-vdY" secondAttribute="leadingMargin" id="6GM-cR-rYV"/>
+                            <constraint firstItem="Ndr-aq-QdZ" firstAttribute="centerX" secondItem="UKP-wH-vdY" secondAttribute="centerX" id="DOc-Kt-muW"/>
+                            <constraint firstItem="Ndr-aq-QdZ" firstAttribute="top" secondItem="XXp-P7-NNq" secondAttribute="bottom" constant="8" id="E8i-Mu-ofS"/>
+                            <constraint firstItem="Ndr-aq-QdZ" firstAttribute="centerY" secondItem="UKP-wH-vdY" secondAttribute="centerY" id="MAd-pV-8KY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="MAd-pV-8KY"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="C5z-Ie-NwB"/>
+                    <connections>
+                        <outlet property="textFromFifthVC" destination="Ndr-aq-QdZ" id="IX6-ty-iNK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JFb-QU-xcc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4425" y="306"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cSl-iQ-Bj0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cGj-6Q-j7z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2oW-2k-sIv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="LZX-vd-ofj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jvr-vJ-8Av" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="-520"/>
+        </scene>
+    </scenes>
+</document>
